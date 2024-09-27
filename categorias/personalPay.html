@@ -1,0 +1,1201 @@
+﻿<!DOCTYPE html>
+<html lang="es" xmlns:mso="urn:schemas-microsoft-com:office:office"
+    xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport">
+    <title>Personal Pay :: Propuesta de Valor</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/img/favicon.ico">
+    <link rel="stylesheet" href="../assets/css/core.min.css" />
+    <link rel="stylesheet" href="../assets/css/skin.css" />
+    <link rel="stylesheet" href="../assets/css/pdv-beneficios.css" />
+    <link rel="stylesheet" href="../assets/css/themify-icons.css" />
+    <link rel="stylesheet" href="../assets/fonts/pulso/pulso.css">
+
+    <style>
+        .full-width {
+            min-width: 100%;
+            height: auto !important;
+        }
+
+        .p-0 {
+            padding: 0 !important;
+        }
+
+        .pb-0 {
+            padding-bottom: 0 !important;
+        }
+
+        .banner.tabla {
+            background-image: unset !important;
+            background-color: #fff;
+            height: auto !important;
+            padding: 20px 24px !important;
+        }
+
+        .descuentos .zona {
+            margin: 0 1.5rem;
+            height: 110px;
+            max-height: 110px;
+            transition: .2s;
+        }
+
+        .descuentos .grilla-base:hover .grilla-contenido .zona {
+            height: 113px;
+            max-height: 113px;
+        }
+
+        .descuentos .zona p {
+            font-weight: 400;
+            white-space: unset;
+        }
+
+        .descuentos .zona p span {
+            font-weight: 700;
+        }
+
+        #personalPay .banner.bg {
+            background-color: unset;
+            background-image: url('personalPay/personalPay_banner_bg.jpg');
+            background-size: cover;
+            height: 220px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #personalPay .banner.bg img {
+            height: 180px;
+        }
+
+        #personalPay .weblink a.button {
+            color: #fff;
+            background-color: rgba(90, 80, 249, .05);
+            border-color: rgba(255, 255, 255, .85);
+        }
+
+        #personalPay .weblink a:hover.button {
+            color: #5a50f9;
+            background-color: rgba(255, 255, 255, .85);
+        }
+
+        .separador {
+            font-weight: 400;
+            font-size: 2rem;
+        }
+
+        .pricing-table-column .pricing-table-header {
+            padding-top: 0 !important;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+
+        .pricing-table.columns-4 .pricing-table-column {
+            width: calc(26% - 6px);
+            margin: 0 4px;
+            border: 0;
+            background-color: transparent !important;
+        }
+
+        .pricing-table-options li {
+            line-height: 1.3;
+            padding: 8px 0;
+            border-bottom: 1px dotted #ccc;
+            min-height: 110px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 700;
+        }
+
+        .pricing-table-options li i {
+            font-weight: 700;
+            border: 1px solid #555;
+            color: #555 !important;
+            padding: 10px;
+            border-radius: 100%;
+        }
+
+        .pricing-table-options li span {
+            display: contents;
+            font-weight: 300;
+            font-size: 14px;
+        }
+
+        .pricing-table-options li span.fs-16 {
+            font-size: 16px;
+        }
+
+        .pricing-table-options li:last-child {
+            border-bottom: 0;
+        }
+
+        .pricing-table.columns-4 .pricing-table-column:first-child {
+            width: calc(22% - 6px);
+            margin-left: 0;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            text-align: left !important;
+        }
+
+        .pricing-table.columns-4 .pricing-table-column:last-child {
+            margin-right: 0;
+        }
+
+        .pricing-table.columns-4 .pricing-table-column:first-child ul.pricing-table-options {
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+
+        .pricing-table.columns-4 .pricing-table-column ul.pricing-table-options li {
+            font-size: 16px;
+            flex-direction: column;
+        }
+
+        .pricing-table.columns-4 .pricing-table-column:first-child ul.pricing-table-options li {
+            font-weight: 700;
+            padding-left: 20px;
+            justify-content: flex-start;
+            flex-direction: unset;
+        }
+
+        .pricing-table.columns-4 .pricing-table-column:nth-child(2) .pricing-table-header h2 {
+            background-color: #5a50f9 !important;
+        }
+
+        .pricing-table.columns-4 .pricing-table-column:nth-child(2) .pricing-table-header {
+            background-color: #7b73fa !important;
+        }
+
+        .pricing-table.columns-4 .pricing-table-column:nth-child(2) li span {
+            border-color: #5a50f955 !important;
+            color: #5a50f9 !important;
+        }
+
+        .pricing-table.columns-4 .pricing-table-column:nth-child(3) .pricing-table-header h2 {
+            background-color: #00b7eb !important;
+        }
+
+        .pricing-table.columns-4 .pricing-table-column:nth-child(3) .pricing-table-header {
+            background-color: #33c5ef !important;
+        }
+
+        .pricing-table.columns-4 .pricing-table-column:nth-child(3) li span {
+            border-color: #00b7eb55 !important;
+            color: #00b7eb !important;
+        }
+
+        .pricing-table.columns-4 .pricing-table-column:nth-child(4) .pricing-table-header h2 {
+            background-color: #17ac89 !important;
+        }
+
+        .pricing-table.columns-4 .pricing-table-column:nth-child(4) .pricing-table-header {
+            background-color: #45bda1 !important;
+        }
+
+        .pricing-table.columns-4 .pricing-table-column:nth-child(4) li span {
+            border-color: #17ac8955 !important;
+            color: #17ac89 !important;
+        }
+
+        .pricing-table-column>[class*=bkg-] {
+            padding: 0 10px 10px
+        }
+
+        .pricing-table.columns-4 .pricing-table-column:nth-child(2) .pricing-table-header {
+            padding: 0 40px 10px;
+        }
+
+        .pricing-table h2 {
+            font-size: 20px !important;
+            font-weight: 700;
+            background-color: red;
+            padding: 8px 22px;
+            max-width: fit-content;
+            margin: 0 auto;
+            border-radius: 50px;
+            transform: translateY(-19px);
+        }
+
+        .pricing-table h4 {
+            font-size: 22px;
+            font-weight: 400;
+            margin-bottom: 0;
+            transform: translateY(-7px);
+            min-height: 53px;
+        }
+
+        ul.pricing-table-options {
+            padding: 5px 15px !important;
+            background-color: #fff;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+
+        .pricing-table-options li span.rubro {
+            display: none;
+            color: #555 !important;
+        }
+
+        .pricing-table-options li span.reintegro {
+            margin-bottom: 4px;
+        }
+
+        .pricing-table.columns-4 .pricing-table-column li span.rubro,
+        .pricing-table.columns-4 .pricing-table-column li span.hasta {
+            font-weight: 400;
+            color: #555 !important;
+        }
+
+        .pricing-table.columns-4 .pricing-table-column li span.hasta {
+            margin-bottom: 5px;
+        }
+
+        .pricing-table-options li span.semanal {
+            padding: 2px 10px;
+            border-radius: 20px;
+            margin-top: 5px;
+            border: 1px solid;
+            font-size: 14px;
+        }
+
+        @media only screen and (max-width: 1050px) {
+            .pricing-table h2 {
+                font-size: 16px !important;
+            }
+
+            .pricing-table h4 {
+                font-size: 18px;
+            }
+
+            .pricing-table.columns-4 .pricing-table-column ul.pricing-table-options li {
+                font-size: 1.4rem;
+            }
+
+            .pricing-table.columns-4 .pricing-table-column:first-child ul.pricing-table-options li {
+                padding-left: 5px;
+            }
+        }
+
+        @media only screen and (max-width: 768px) {
+            .pricing-table.columns-4 .pricing-table-column {
+                width: 100%;
+            }
+
+            .pricing-table.columns-4 .pricing-table-column:first-child {
+                display: none;
+            }
+
+            .pricing-table.columns-4 .pricing-table-column:nth-child(2) .pricing-table-header {
+                padding: 0 10px 10px;
+            }
+
+            .pricing-table h4 {
+                min-height: 30px;
+            }
+
+            .pricing-table.columns-4 .pricing-table-column {
+                margin-bottom: 50px;
+            }
+
+            .pricing-table.columns-4 .pricing-table-column:last-child {
+                margin-bottom: 0;
+            }
+
+            .pricing-table-options li {
+                line-height: 1.3;
+                padding: 10px 0 12px;
+            }
+
+            .pricing-table-options li.null {
+                display: none;
+            }
+
+            .pricing-table-options li span.rubro {
+                display: block;
+                margin-bottom: 5px;
+                font-weight: 700 !important;
+            }
+
+            .pricing-table-options li span.semanal {
+                margin-top: 10px;
+            }
+        }
+    </style>
+
+    <!--[if lt IE 9]>
+		<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168668867-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-168668867-1');
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NRTBZH9');</script>
+    <!-- End Google Tag Manager -->
+
+</head>
+
+<body id="personalPay">
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NRTBZH9" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="wrapper reveal-side-navigation">
+        <div class="wrapper-inner">
+
+            <!-- Content -->
+            <div class="content clearfix">
+
+                <div class="row-fluid">
+                    <div class="column width-3 categoria pdv-contenido">
+                        <div class="thumbnail" data-hover-easing="easeInOut" data-hover-speed="300">
+                            <a class="overlay-link" data-content="inline" data-aux-classes="tml-message-modal"
+                                data-toolbar="" data-modal-mode data-modal-width="600" data-lightbox-animation="fadeIn"
+                                href="../">
+                                <img id="logo-aside" src="../assets/img/propuestaDeValor_logo.svg" />
+                                <img id="bg-aside-pdv" src="../assets/img/bg-aside.png" />
+                                <object>
+                                    <div id="volver">
+                                        <img src="../assets/img/btn-volver.svg" /><span>Volver</span>
+                                    </div>
+                                </object>
+                                <object>
+                                    <a id="vivaEngage"
+                                        href="https://www.yammer.com/teco.com.ar/#/threads/inGroup?type=in_group&feedId=12515587"
+                                        target="_blank"
+                                        onclick="gtag('event', 'Viva Engage', {'event_category': 'Beneficios', 'event_label': 'Beneficios'});">
+                                        <p><img id="logo-aside" src="../assets/img/vivaEngage_logo.svg" />Beneficios</p>
+                                    </a>
+                                </object>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="column width-9 contenido">
+                        <div class="thumbnail" data-hover-easing="easeInOut" data-hover-speed="300">
+                            <div class="row">
+                                <div class="column width-12">
+                                    <h3 class="categoria-pill">Personal Pay</h3>
+                                </div>
+                            </div>
+                            <div class="row intro">
+                                <div class="column width-12">
+                                    <h3>Llegó el momento de conectar con tu plata</h3>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="row banner bg">
+                                    <div class="column width-12 center">
+                                        <a href="https://personalpay.com.ar/beneficios" target="_blank">
+                                            <img src="personalPay/personalPay_banner.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div style="display: none">
+                                <div class="row">
+                                    <div class="column width-12">
+                                        <h4 class="separador">Si consumís <strong>hasta $20.000</strong> cada mes podés
+                                            disfrutar de:</h4>
+                                    </div>
+                                </div>
+                                <div class="row flex descuentos pb-0">
+                                    <!-- Combustible -->
+                                    <div class="column width-2 grilla-base">
+                                        <div class="grilla-contenido">
+                                            <img src="personalPay/beneficios/combustible.jpg" alt="" />
+                                            <div class="beneficio">
+                                                <h4>Combustible</h4>
+                                            </div>
+                                            <div class="ahorro">
+                                                <h5>5% de reintegro</h5>
+                                            </div>
+                                            <div class="zona">
+                                                <p>Semanal<br />
+                                                    <span>Hasta $400.</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- PedidosYa -->
+                                    <div class="column width-2 grilla-base">
+                                        <div class="grilla-contenido">
+                                            <img src="personalPay/beneficios/pedidosYa.jpg" alt="" />
+                                            <div class="beneficio">
+                                                <h4>PedidosYa</h4>
+                                            </div>
+                                            <div class="ahorro">
+                                                <h5>20% de reintegro</h5>
+                                            </div>
+                                            <div class="zona">
+                                                <p>Semanal<br />
+                                                    <span>Hasta $200.</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Personal facturas -->
+                                    <div class="column width-2 grilla-base">
+                                        <div class="grilla-contenido">
+                                            <img src="personalPay/beneficios/personal.jpg" alt="" />
+                                            <div class="beneficio">
+                                                <h4>Personal</h4>
+                                            </div>
+                                            <div class="ahorro">
+                                                <h5>15% de reintegro en facturas de líneas móviles</h5>
+                                            </div>
+                                            <div class="zona">
+                                                <p><span>Hasta $500.</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Recargas Personal -->
+                                    <div class="column width-2 grilla-base">
+                                        <div class="grilla-contenido">
+                                            <img src="personalPay/beneficios/recargas.jpg" alt="" />
+                                            <div class="beneficio">
+                                                <h4>Recargas Personal</h4>
+                                            </div>
+                                            <div class="ahorro">
+                                                <h5>10% de reintegro en recargas</h5>
+                                            </div>
+                                            <div class="zona">
+                                                <p><span>Hasta $70.</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="column width-12">
+                                        <h4 class="separador">Si consumís <strong>más de $20.000</strong> cada mes podés
+                                            disfrutar de:</h4>
+                                    </div>
+                                </div>
+
+                                <div class="row flex descuentos pb-0">
+                                    <!-- Supermercados  -->
+                                    <div class="column width-2 grilla-base">
+                                        <div class="grilla-contenido">
+                                            <img src="personalPay/beneficios/supermercados.jpg" alt="" />
+                                            <div class="beneficio">
+                                                <h4>Supermercados</h4>
+                                            </div>
+                                            <div class="ahorro">
+                                                <h5>25% de reintegro</h5>
+                                            </div>
+                                            <div class="zona">
+                                                <p>Semanal<br />
+                                                    <span>Hasta $1.000</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Combustible -->
+                                    <div class="column width-2 grilla-base">
+                                        <div class="grilla-contenido">
+                                            <img src="personalPay/beneficios/combustible.jpg" alt="" />
+                                            <div class="beneficio">
+                                                <h4>Combustible</h4>
+                                            </div>
+                                            <div class="ahorro">
+                                                <h5>20% de reintegro</h5>
+                                            </div>
+                                            <div class="zona">
+                                                <p>Semanal<br />
+                                                    <span>Hasta $800.</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Burger King -->
+                                    <div class="column width-2 grilla-base">
+                                        <div class="grilla-contenido">
+                                            <img src="personalPay/beneficios/burgerKing.jpg" alt="" />
+                                            <div class="beneficio">
+                                                <h4>Burger King</h4>
+                                            </div>
+                                            <div class="ahorro">
+                                                <h5>25% de reintegro</h5>
+                                            </div>
+                                            <div class="zona">
+                                                <p>Semanal<br />
+                                                    <span>Hasta $800.</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Mostaza -->
+                                    <div class="column width-2 grilla-base">
+                                        <div class="grilla-contenido">
+                                            <img src="personalPay/beneficios/mostaza.jpg" alt="" />
+                                            <div class="beneficio">
+                                                <h4>Mostaza</h4>
+                                            </div>
+                                            <div class="ahorro">
+                                                <h5>25% de reintegro</h5>
+                                            </div>
+                                            <div class="zona">
+                                                <p>Semanal<br />
+                                                    <span>Hasta $800.</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- PedidosYa -->
+                                    <div class="column width-2 grilla-base">
+                                        <div class="grilla-contenido">
+                                            <img src="personalPay/beneficios/pedidosYa.jpg" alt="" />
+                                            <div class="beneficio">
+                                                <h4>PedidosYa</h4>
+                                            </div>
+                                            <div class="ahorro">
+                                                <h5>40% de reintegro</h5>
+                                            </div>
+                                            <div class="zona">
+                                                <p>Semanal<br />
+                                                    <span>Hasta $700.</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Recargas SUBE -->
+                                    <div class="column width-2 grilla-base">
+                                        <div class="grilla-contenido">
+                                            <img src="personalPay/beneficios/sube.jpg" alt="" />
+                                            <div class="beneficio">
+                                                <h4>Recargas Transporte</h4>
+                                            </div>
+                                            <div class="ahorro">
+                                                <h5>30% de reintegro</h5>
+                                            </div>
+                                            <div class="zona">
+                                                <p>Semanal<br />
+                                                    <span>Hasta $150.</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Personal facturas -->
+                                    <div class="column width-2 grilla-base">
+                                        <div class="grilla-contenido">
+                                            <img src="personalPay/beneficios/personal.jpg" alt="" />
+                                            <div class="beneficio">
+                                                <h4>Personal</h4>
+                                            </div>
+                                            <div class="ahorro">
+                                                <h5>30% de reintegro en facturas hogar y móvil</h5>
+                                            </div>
+                                            <div class="zona">
+                                                <p><span>Hasta $800.</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Recargas Personal -->
+                                    <div class="column width-2 grilla-base">
+                                        <div class="grilla-contenido">
+                                            <img src="personalPay/beneficios/recargas.jpg" alt="" />
+                                            <div class="beneficio">
+                                                <h4>Recargas Personal</h4>
+                                            </div>
+                                            <div class="ahorro">
+                                                <h5>30% de reintegro</h5>
+                                            </div>
+                                            <div class="zona">
+                                                <p><span></span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="row flex mt-60 mb-30">
+                                <!-- Pricing Table Default -->
+
+                                <div class="column width-12">
+                                    <div class="row">
+                                        <div class="column width-12">
+                                            <h4>¡Descubí todo lo nuevo de Niveles!</h4>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="row banner tabla">
+                                            <div class="column width-12 center p-0">
+                                                <img src="personalPay/ppay_niveles.jpg" class="full-width" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="display: none">
+                                        <div class="pricing-table columns-4 mb-0">
+                                            <div class="pricing-table-column" style="margin-top: 103px;">
+                                                <ul class="pricing-table-options color-grey">
+                                                    <li>Rendimiento Adicional</li>
+                                                    <li>Supermercados<br /><span>con tu tarjeta Personal Pay</span></li>
+                                                    <li>Combustible<br /><span>con tu tarjeta Personal Pay</span></li>
+                                                    <li>Pedidos Ya<br /><span>con tu tarjeta Personal Pay</span></li>
+                                                    <li>Recargas de Transporte</li>
+                                                    <li>Comida rápida *<br /><span>con tu tarjeta Personal Pay</span>
+                                                    </li>
+                                                    <li>Personal Flow<br />
+                                                        <span class="fs-16">Hogar o Móvil</span><br />
+                                                        <span>Hogar o Móvil</span>
+                                                    </li>
+                                                    </li>
+                                                    <li>Recargas Personal</li>
+                                                    <li>Tiendas Personal</li>
+                                                </ul>
+                                            </div>
+                                            <div class="pricing-table-column">
+                                                <div class="pricing-table-header bkg-theme color-white">
+                                                    <h2>Nivel 1</h2>
+                                                    <h4>¡Solo por usar Personal Pay!</h4>
+                                                </div>
+                                                <ul class="pricing-table-options color-grey">
+                                                    <li class="null"><i class="ti-close"></i></li>
+                                                    <li class="null"><i class="ti-close"></i></li>
+                                                    <li class="null"><i class="ti-close"></i></li>
+                                                    <li><span class="rubro">Pedidos Ya: </span>
+                                                        <span class="reintegro">10% de reintegro</span>
+                                                        <span class="hasta">Hasta $200</span>
+                                                        <span class="semanal">Semanal</span>
+                                                    </li>
+                                                    <li class="null"><i class="ti-close"></i></li>
+                                                    <li class="null"><i class="ti-close"></i></li>
+                                                    <li><span class="rubro">Recargas Personal: </span>
+                                                        <span class="reintegro">10% de reintegro</span>
+                                                        <span class="hasta">Hasta $80</span>
+                                                        <span class="semanal">Semanal</span>
+                                                    </li>
+                                                    <li><span class="rubro">Tiendas Personal: </span>
+                                                        <span class="reintegro">10% de reintegro</span>
+                                                        <span class="hasta">Hasta $80</span>
+                                                        <span class="semanal">Semanal</span>
+                                                    </li>
+                                                    <li><span class="rubro">Personal Flow Hogar o Móvil: </span>
+                                                        <span class="reintegro">15% de reintegro</span>
+                                                        <span class="hasta">Hasta $500 *</span>
+                                                        <span class="semanal">Mensual</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="pricing-table-column">
+                                                <div class="pricing-table-header bkg-theme color-white">
+                                                    <h2>Nivel 2</h2>
+                                                    <h4>Más de <strong>$40.000</strong> de consumo mensual</h4>
+                                                </div>
+                                                <ul class="pricing-table-options color-grey">
+                                                    <li><span class="rubro">Rendimiento Adicional: </span>
+                                                        <span class="reintegro">25% de reintegro</span>
+                                                        <span class="hasta">Hasta $1.000</span>
+                                                        <span class="semanal">Semanal</span>
+                                                    </li>
+                                                    <li><span class="rubro">Supermercados: </span>
+                                                        <span class="reintegro">25% de reintegro</span>
+                                                        <span class="hasta">Hasta $1.000</span>
+                                                        <span class="semanal">Semanal</span>
+                                                    </li>
+                                                    <li><span class="rubro">Combustible: </span>
+                                                        <span class="reintegro">20% de reintegro</span>
+                                                        <span class="hasta">Hasta $800</span>
+                                                        <span class="semanal">Semanal</span>
+                                                    </li>
+                                                    <li><span class="rubro">Pedidos Ya: </span>
+                                                        <span class="reintegro">40% de reintegro</span>
+                                                        <span class="hasta">Hasta $700</span>
+                                                        <span class="semanal">Semanal</span>
+                                                    </li>
+                                                    <li><span class="rubro">Transporte: </span>
+                                                        <span class="reintegro">30% de reintegro</span>
+                                                        <span class="hasta">Hasta $250</span>
+                                                        <span class="semanal">Semanal</span>
+                                                    </li>
+                                                    <li><span class="rubro">Comidas rápidas **: </span>
+                                                        <span class="reintegro">25% de reintegro</span>
+                                                        <span class="hasta">Hasta $800</span>
+                                                        <span class="semanal">Semanal</span>
+                                                    </li>
+                                                    <li><span class="rubro">Recargas Personal: </span>
+                                                        <span class="reintegro">30% de reintegro</span>
+                                                        <span class="hasta">Hasta $250</span>
+                                                        <span class="semanal">Semanal</span>
+                                                    </li>
+                                                    <li><span class="rubro">Tiendas Personal: </span>
+                                                        <span class="reintegro">10% de reintegro</span>
+                                                        <span class="hasta">Hasta $80</span>
+                                                        <span class="semanal">Semanal</span>
+                                                    </li>
+                                                    <li><span class="rubro">Personal Flow Hogar o Móvil: </span>
+                                                        <span class="reintegro">30% de reintegro</span>
+                                                        <span class="hasta">Hasta $1.500</span>
+                                                        <span class="semanal">Mensual</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="pricing-table-column">
+                                                <div class="pricing-table-header bkg-theme color-white">
+                                                    <h2>Nivel 3</h2>
+                                                    <h4>Más de <strong>$80.000</strong> de consumo mensual</h4>
+                                                </div>
+                                                <ul class="pricing-table-options color-grey">
+                                                    <li><span class="rubro">Rendimiento Adicional: </span>
+                                                        <span class="reintegro">25% de reintegro</span>
+                                                        <span class="hasta">Hasta $1.000</span>
+                                                        <span class="semanal">Semanal</span>
+                                                    </li>
+
+                                                    <li><span class="rubro">Supermercados: </span>
+                                                        <span class="reintegro">25% de reintegro</span>
+                                                        <span class="hasta">Hasta $1.800</span>
+                                                        <span class="semanal">Semanal</span>
+                                                    </li>
+                                                    <li><span class="rubro">Combustible: </span>
+                                                        <span class="reintegro">20% de reintegro</span>
+                                                        <span class="hasta">Hasta $1.200</span>
+                                                        <span class="semanal">Semanal</span>
+                                                    </li>
+                                                    <li><span class="rubro">Pedidos Ya: </span>
+                                                        <span class="reintegro">40% de reintegro</span>
+                                                        <span class="hasta">Hasta $1.000</span>
+                                                        <span class="semanal">Semanal</span>
+                                                    </li>
+                                                    <li><span class="rubro">Transporte: </span>
+                                                        <span class="reintegro">30% de reintegro</span>
+                                                        <span class="hasta">Hasta $250</span>
+                                                        <span class="semanal">Semanal</span>
+                                                    </li>
+                                                    <li><span class="rubro">Comidas rápidas **: </span>
+                                                        <span class="reintegro">25% de reintegro</span>
+                                                        <span class="hasta">Hasta $1.200</span>
+                                                        <span class="semanal">Semanal</span>
+                                                    </li>
+                                                    <li><span class="rubro">Recargas Personal: </span>
+                                                        <span class="reintegro">30% de reintegro</span>
+                                                        <span class="hasta">Hasta $250</span>
+                                                        <span class="semanal">Semanal</span>
+                                                    </li>
+                                                    <li><span class="rubro">Personal Flow Hogar o Móvil: </span>
+                                                        <span class="reintegro">30% de reintegro</span>
+                                                        <span class="hasta">Hasta $2.000</span>
+                                                        <span class="semanal">Mensual</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                        <p class="mt-20"><em>* Personal Flow Hogar o Móvil: <strong>$500</strong> la
+                                                primera
+                                                vez que pagás con Personal Pay, luego el tope es de
+                                                <strong>$250</strong>.</em>
+                                        </p>
+                                        <p class="mt-5"><em>** Comida rápida: Mostaza o <strong>Burguer King</strong>,
+                                                <strong>KFC</strong> o
+                                                <strong>Wendys</em>.</p>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div style="display: none">
+                                <div class="row">
+                                    <div class="column width-12">
+                                        <h4 class="separador">¡Además acumulá muchos beneficios de tus marcas favoritas!
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class="row flex descuentos pb-0">
+                                    <!-- Comedores Teco -->
+                                    <div class="column width-2 grilla-base">
+                                        <div class="grilla-contenido">
+                                            <img src="personalPay/beneficios/comedores.jpg" alt="" />
+                                            <div class="beneficio">
+                                                <h4>Comedores Teco</h4>
+                                            </div>
+                                            <div class="ahorro">
+                                                <h5>20% de reintegro</h5>
+                                            </div>
+                                            <div class="zona">
+                                                <p>Válido para Hornos, Golf y Óptima.<br />Sin límite de
+                                                    transacciones.<br />
+                                                    <span>Hasta $150 por transacción.</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Tu celu nuevo -->
+                                    <div class="column width-2 grilla-base">
+                                        <div class="grilla-contenido">
+                                            <img src="personalPay/beneficios/recargas.jpg" alt="" />
+                                            <div class="beneficio">
+                                                <h4>Tu celu nuevo</h4>
+                                            </div>
+                                            <div class="ahorro">
+                                                <h5>20% de reintegro</h5>
+                                            </div>
+                                            <div class="zona">
+                                                <p>En tienda Personal, oficinas comerciales y canal telefónico.<br />
+                                                    <span>Hasta $10.000.</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Carrefour -->
+                                    <!--<div class="column width-2 grilla-base">
+                                    <div class="grilla-contenido">
+                                        <img src="personalPay/beneficios/carrefour.jpg" alt="" />
+                                        <div class="beneficio">
+                                            <h4>Carrefour</h4>
+                                        </div>
+                                        <div class="ahorro">
+                                            <h5>25% de descuento</h5>
+                                        </div>
+                                        <div class="zona">
+                                            <p>Sólo lunes.<br />
+                                                <span>Hasta $1.000.</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>-->
+                                    <!-- Yaguar -->
+                                    <div class="column width-2 grilla-base">
+                                        <div class="grilla-contenido">
+                                            <img src="personalPay/beneficios/yaguar.jpg" alt="" />
+                                            <div class="beneficio">
+                                                <h4>Yaguar</h4>
+                                            </div>
+                                            <div class="ahorro">
+                                                <h5>25% de reintegro</h5>
+                                            </div>
+                                            <div class="zona">
+                                                <p>Jueves, viernes, sábado y domingo. Un reintegro por semana.<br />
+                                                    <span>Hasta $1.000.</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Cine -->
+                                    <div class="column width-2 grilla-base">
+                                        <div class="grilla-contenido">
+                                            <img src="personalPay/beneficios/cine.jpg" alt="" />
+                                            <div class="beneficio">
+                                                <h4>Cine</h4>
+                                            </div>
+                                            <div class="ahorro">
+                                                <h5>20% de descuento en Candy</h5>
+                                            </div>
+                                            <div class="zona">
+                                                <p>Todos los días en Cinemacenter, Hoyts, Cinemark, Cinema Devoto.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Gulf -->
+                                    <div class="column width-2 grilla-base">
+                                        <div class="grilla-contenido">
+                                            <img src="personalPay/beneficios/gulf.jpg" alt="" />
+                                            <div class="beneficio">
+                                                <h4>Gulf</h4>
+                                            </div>
+                                            <div class="ahorro">
+                                                <h5>5% de reintegro</h5>
+                                            </div>
+                                            <div class="zona">
+                                                <p>Todos los días, un reintegro por semana.<br />
+                                                    <span>Hasta $500.</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Cero rating -->
+                                    <div class="column width-2 grilla-base">
+                                        <div class="grilla-contenido">
+                                            <img src="personalPay/beneficios/datos.jpg" alt="" />
+                                            <div class="beneficio">
+                                                <h4>Cero rating</h4>
+                                            </div>
+                                            <div class="ahorro">
+                                                <h5>No consumís datos</h5>
+                                            </div>
+                                            <div class="zona">
+                                                <p>Navegar por la app no consume datos de tu plan.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Chango Más -->
+                                    <div class="column width-2 grilla-base">
+                                        <div class="grilla-contenido">
+                                            <img src="personalPay/beneficios/changoMas.jpg" alt="" />
+                                            <div class="beneficio">
+                                                <h4>Chango Más</h4>
+                                            </div>
+                                            <div class="ahorro">
+                                                <h5>25% de reintegro</h5>
+                                            </div>
+                                            <div class="zona">
+                                                <p>Lunes, martes, miércoles o jueves.<br />
+                                                    <span>Hasta de $1.000 semanal por cliente (1 transacción con tarjeta
+                                                        física y 1 con QR).</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Diarco -->
+                                    <div class="column width-2 grilla-base">
+                                        <div class="grilla-contenido">
+                                            <img src="personalPay/beneficios/diarco.jpg" alt="" />
+                                            <div class="beneficio">
+                                                <h4>Diarco</h4>
+                                            </div>
+                                            <div class="ahorro">
+                                                <h5>25% de reintegro</h5>
+                                            </div>
+                                            <div class="zona">
+                                                <p>De lunes a viernes.<br />
+                                                    <span>Hasta de $1.000 semanal por cliente solo con tarjeta
+                                                        física.</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Toledo -->
+                                    <div class="column width-2 grilla-base">
+                                        <div class="grilla-contenido">
+                                            <img src="personalPay/beneficios/toledo.jpg" alt="" />
+                                            <div class="beneficio">
+                                                <h4>Toledo</h4>
+                                            </div>
+                                            <div class="ahorro">
+                                                <h5>25% de reintegro</h5>
+                                            </div>
+                                            <div class="zona">
+                                                <p>Martes, Miercoles o Jueves (1 solo dia a la semana).<br />
+                                                    <span>Hasta $1.000.</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Burger King -->
+                                    <div class="column width-2 grilla-base">
+                                        <div class="grilla-contenido">
+                                            <img src="personalPay/beneficios/burgerKing.jpg" alt="" />
+                                            <div class="beneficio">
+                                                <h4>Burger King</h4>
+                                            </div>
+                                            <div class="ahorro">
+                                                <h5>Hasta 50% de descuento en productos seleccionados.</h5>
+                                            </div>
+                                            <div class="zona">
+                                                <p>Todos los días.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Mostaza -->
+                                    <div class="column width-2 grilla-base">
+                                        <div class="grilla-contenido">
+                                            <img src="personalPay/beneficios/mostaza.jpg" alt="" />
+                                            <div class="beneficio">
+                                                <h4>Mostaza</h4>
+                                            </div>
+                                            <div class="ahorro">
+                                                <h5>Hasta 50% de descuento en productos seleccionados.</h5>
+                                            </div>
+                                            <div class="zona">
+                                                <p>Todos los días.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Freddo -->
+                                    <div class="column width-2 grilla-base">
+                                        <div class="grilla-contenido">
+                                            <img src="personalPay/beneficios/freddo.jpg" alt="" />
+                                            <div class="beneficio">
+                                                <h4>Freddo</h4>
+                                            </div>
+                                            <div class="ahorro">
+                                                <h5>Hasta 50% de descuento en productos seleccionados.</h5>
+                                            </div>
+                                            <div class="zona">
+                                                <p>Todos los días.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <!-- Disco 
+                                <div class="column width-2 grilla-base">
+                                    <div class="grilla-contenido">
+                                        <img src="personalPay/beneficios/disco.jpg" alt="" />
+                                        <div class="beneficio">
+                                            <h4>Disco</h4>
+                                        </div>
+                                        <div class="ahorro">
+                                            <h5>15% de descuento</h5>
+                                        </div>
+                                        <div class="zona">
+                                            <p>Lunes y jueves.<br />
+                                                <span>Acumulable con descuento Supermercados.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Vea 
+                                <div class="column width-2 grilla-base">
+                                    <div class="grilla-contenido">
+                                        <img src="personalPay/beneficios/vea.jpg" alt="" />
+                                        <div class="beneficio">
+                                            <h4>Vea</h4>
+                                        </div>
+                                        <div class="ahorro">
+                                            <h5>15% de descuento</h5>
+                                        </div>
+                                        <div class="zona">
+                                            <p>Lunes y jueves.<br />
+                                                <span>Acumulable con descuento Supermercados.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Jumbo 
+                                <div class="column width-2 grilla-base">
+                                    <div class="grilla-contenido">
+                                        <img src="personalPay/beneficios/jumbo.jpg" alt="" />
+                                        <div class="beneficio">
+                                            <h4>Jumbo</h4>
+                                        </div>
+                                        <div class="ahorro">
+                                            <h5>15% de descuento</h5>
+                                        </div>
+                                        <div class="zona">
+                                            <p>Lunes y jueves.<br />
+                                                <span>Acumulable con descuento Supermercados.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Axion 
+                                <div class="column width-2 grilla-base">
+                                    <div class="grilla-contenido">
+                                        <img src="personalPay/beneficios/axion.jpg" alt="" />
+                                        <div class="beneficio">
+                                            <h4>Axion</h4>
+                                        </div>
+                                        <div class="ahorro">
+                                            <h5>5% de descuento en estaciones adheridas</h5>
+                                        </div>
+                                        <div class="zona">
+                                            <p>Sólo domingo. Acumulable con reintegro del rubro.<br />
+                                                <span>Hasta $300.</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Flow 
+                                <div class="column width-2 grilla-base">
+                                    <div class="grilla-contenido">
+                                        <img src="personalPay/beneficios/flow.jpg" alt="" />
+                                        <div class="beneficio">
+                                            <h4>Flow</h4>
+                                        </div>
+                                        <div class="ahorro">
+                                            <h5>20% de reintegro en tus facturas</h5>
+                                        </div>
+                                        <div class="zona">
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Libertad 
+                                <div class="column width-2 grilla-base">
+                                    <div class="grilla-contenido">
+                                        <img src="personalPay/beneficios/libertad.jpg" alt="" />
+                                        <div class="beneficio">
+                                            <h4>Libertad</h4>
+                                        </div>
+                                        <div class="ahorro">
+                                            <h5>35% de reintegro</h5>
+                                        </div>
+                                        <div class="zona">
+                                            <p>Todos los días, un reintegro por semana.<br />
+                                                <span>Hasta $1.000.</span>
+                                        </div>
+                                    </div>
+                                </div>-->
+                                </div>
+                            </div>
+
+                            <div class="row weblink">
+
+                                <div class="row banner calltoaction color-white">
+                                    <div class="column width-6 center">
+                                        <h4 class="weight-light">Descargá ahora la app y comenzá a disfrutar de
+                                            #AhorrosQueGarpan</h4>
+                                        <p>
+                                            <a href="https://play.google.com/store/apps/details?id=ar.com.personalpay"
+                                                target="_blank" style="margin: 0 2px"><img
+                                                    src="../assets/img/store_android.png"></a>
+                                            <a href="https://apps.apple.com/app/apple-store/id1548817439"
+                                                target="_blank" style="margin: 0 2px"><img
+                                                    src="../assets/img/store_ios.png"></a>
+                                        </p>
+                                    </div>
+                                </div>
+
+
+                                <div class="row banner"
+                                    style="padding: 15px 15px 25px;background: #5a72f6 ;color: #fff;">
+                                    <div class="column width-12" style="display: flex; align-items: flex-end;">
+                                        <div style="margin-bottom: 5px; margin-right: 10px;">
+                                            <p><strong>Descubrí mucho más en:</strong></p>
+                                        </div>
+                                        <div>
+                                            <p><a href="https://www.personalpay.com.ar" target="_blank" class="button"
+                                                    onclick="gtag('event', 'Web', {'event_category': 'Beneficios', 'event_label': 'Personal Pay'});">
+                                                    personalpay.com.ar</p></a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="row banner">
+                                    <div class="column width-12">
+                                        <p>Para más info o consultas, buscá nuestra comunidad en Viva Engage:</p>
+                                        <p><a href="https://www.yammer.com/teco.com.ar/#/threads/inGroup?type=in_group&feedId=73184813056"
+                                                target="_blank" class="button vivaEngage"
+                                                onclick="gtag('event', 'Viva Engage', {'event_category': 'Beneficios', 'event_label': 'Personal Pay'});">
+                                                <img class="vivaEngage"
+                                                    src="../assets/img/vivaEngage_logo.svg" />Personal Pay</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Content End -->
+
+        </div>
+    </div>
+
+    <!-- Js -->
+    <script type="text/javascript" src="../assets/js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="../assets/js/jquery.tm.equalize.min.js"></script>
+    <script type="text/javascript" src="../assets/js/timber.master.min.js"></script>
+
+</body>
+
+</html>

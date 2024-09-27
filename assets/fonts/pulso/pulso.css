@@ -1,0 +1,24 @@
+/* Webfont: Pulso-Regular */
+@font-face {
+    font-family: 'Pulso';
+    src: url( 'Pulso-Regular.eot'); 
+    src: url( 'Pulso-Regular.eot?#iefix') format('embedded-opentype'),
+         url( 'Pulso-Regular.woff2') format('woff2'), 
+         url( 'Pulso-Regular.woff') format('woff'), 
+         url( 'Pulso-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* Webfont: Pulso-Light */
+@font-face {
+    font-family: 'Pulso';
+    src: url( 'Pulso-Light.eot'); 
+    src: url( 'Pulso-Light.eot?#iefix') format('embedded-opentype'),
+         url( 'Pulso-Light.woff2') format('woff2'), 
+         url( 'Pulso-Light.woff') format('woff'), 
+         url( 'Pulso-Light.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 300;
+}
+

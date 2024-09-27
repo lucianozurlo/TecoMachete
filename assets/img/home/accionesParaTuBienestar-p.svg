@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 1000" style="enable-background:new 0 0 500 1000;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.3;fill:#DCE3EF;enable-background:new    ;}
+	.st1{fill:url(#SVGID_1_);}
+</style>
+<path class="st0" d="M61.7,476.6C102.7,509,73.9,558.9,93,604c23.9,56.3,103.1,105.1,163.1,92.8c64-13.1,97-53.7,104.8-114.6
+	c9.4-73.5,99.1-62.6,116.3-123.7c16.5-58.6-20.8-124.4-81-132.6c-32.6-4.4-58.4-0.1-88.3-0.6c-34.8-0.6-62.9-26.8-90.6-40.7
+	C95.5,223.6-52,386.5,61.7,476.6z"/>
+<path class="st0" d="M176.3,335C117.7,355.8,86,424.7,94.4,486c3.6,26.4,24.2,78.7,56.2,121.6c42.5,56.9,139.9,56.6,163-9.4
+	c41.6-119,69.5-97.4,63.4-162.9C369.3,352.8,234.9,314.3,176.3,335z"/>
+<circle class="st0" cx="42.8" cy="596" r="3.8"/>
+<ellipse transform="matrix(0.887 -0.4617 0.4617 0.887 -261.7291 270.5815)" class="st0" cx="422" cy="670.1" rx="34.8" ry="34.8"/>
+<circle class="st0" cx="71.9" cy="680.6" r="4.4"/>
+<circle class="st0" cx="101.3" cy="764.5" r="8.6"/>
+<circle class="st0" cx="169.1" cy="791.8" r="5.6"/>
+<circle class="st0" cx="238.3" cy="878.2" r="7.1"/>
+<circle class="st0" cx="140.9" cy="888.2" r="7.1"/>
+<circle class="st0" cx="271.3" cy="759.4" r="5.6"/>
+<circle class="st0" cx="409.7" cy="814.5" r="4.4"/>
+<circle class="st0" cx="444.8" cy="894.5" r="4.4"/>
+<circle class="st0" cx="313.1" cy="913.9" r="14.2"/>
+<circle class="st0" cx="58.9" cy="885.2" r="12.9"/>
+<circle class="st0" cx="350.2" cy="838.7" r="4.4"/>
+<circle class="st0" cx="398.5" cy="959.3" r="4.4"/>
+<circle class="st0" cx="196.1" cy="923.6" r="4.4"/>
+<circle class="st0" cx="354.3" cy="751.9" r="13.2"/>
+<circle class="st0" cx="442.6" cy="762.4" r="13.2"/>
+<circle class="st0" cx="443.9" cy="214.8" r="8.2"/>
+<circle class="st0" cx="453.7" cy="117.5" r="8.9"/>
+<circle class="st0" cx="258" cy="99.4" r="13"/>
+<circle class="st0" cx="171.3" cy="49.3" r="8.8"/>
+<circle class="st0" cx="322.3" cy="210.6" r="16.6"/>
+<circle class="st0" cx="245" cy="228.2" r="5.6"/>
+<circle class="st0" cx="70.9" cy="182.4" r="4.7"/>
+<circle class="st0" cx="58.9" cy="84" r="9.3"/>
+<circle class="st0" cx="50.2" cy="279.4" r="8.2"/>
+<circle class="st0" cx="146.4" cy="206.1" r="4.4"/>
+<circle class="st0" cx="437.8" cy="540.9" r="9.3"/>
+<circle class="st0" cx="377.3" cy="258.9" r="6"/>
+<circle class="st0" cx="124.1" cy="167.1" r="14.6"/>
+<circle class="st0" cx="356.6" cy="287.3" r="4.3"/>
+<circle class="st0" cx="326.5" cy="89.6" r="4.3"/>
+<circle class="st0" cx="389.7" cy="47.3" r="8.7"/>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="250" y1="-92.5183" x2="250" y2="92.298" gradientTransform="matrix(1 0 0 -1 0 499.8898)">
+	<stop  offset="0" style="stop-color:#28096A"/>
+	<stop  offset="1" style="stop-color:#3C009F"/>
+</linearGradient>
+<path class="st1" d="M162.3,516.5l76.1,71.2c3.1,2.9,7.4,4.7,11.6,4.7s8.5-1.6,11.6-4.7l76.3-71.2c12.8-12,20-28.7,20-46.2v-2.5
+	c0-29.5-21.3-54.5-50.3-59.4c-19.2-3.3-38.8,3.1-52.6,16.9l-5,5l-5-5c-13.8-13.8-33.4-20-52.6-16.9c-29.1,4.9-50.3,30.1-50.3,59.4
+	v2.5C142.1,487.8,149.5,504.5,162.3,516.5L162.3,516.5z"/>
+</svg>
